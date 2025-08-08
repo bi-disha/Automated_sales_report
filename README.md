@@ -1,6 +1,8 @@
 # Automated_sales_report
 Python automation project to clean sales data, generate weekly Excel reports, and email them using Gmail
 
+
+
 🧾 Automated Sales Report with Python
 This project automates the entire sales reporting process:
 
@@ -11,7 +13,11 @@ This project automates the entire sales reporting process:
 📧 Sends reports automatically via email using Gmail SMTP
 
 
+
+
 🚀 Features
+
+
 📊 Reads raw sales data from .csv
 
 🧼 Cleans and processes the data
@@ -19,6 +25,8 @@ This project automates the entire sales reporting process:
 📈 Generates a weekly summary Excel report
 
 📧 Automatically emails the report to a recipient
+
+
 
 ⚙️ How to Use
 Place your raw sales data in the data/ folder.
@@ -28,11 +36,16 @@ Open main.py and configure your Gmail credentials securely.
 Run the pipeline:
 
 python main.py
+
+
+
 🔧 Requirements
 Install the required libraries before running the script:
 
-
 pip install pandas openpyxl
+
+
+
 🛠 Tech Stack
 Python 3
 
@@ -44,6 +57,7 @@ smtplib
 
 VS Code
 
+
 🔐 Important Notes
 If you're using Gmail to send reports:
 
@@ -53,11 +67,18 @@ Avoid hardcoding credentials into the script.
 
 Use environment variables or a .env file for storing sensitive information.
 
+
+
 🧪 Sample Output
+
 The report is generated weekly and saved in the outputs/ folder.
+
 Filename format:
 
 weekly_sales_report_YYYY-MM-DD.xlsx
+
+
+
 ✨ Author
 Bidisha Pal
 Final Year CSE Student | Data Engineering Enthusiast
