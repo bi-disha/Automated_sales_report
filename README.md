@@ -10,23 +10,6 @@ This project automates the entire sales reporting process:
 
 📧 Sends reports automatically via email using Gmail SMTP
 
-📁 Project Structure
-AUTOMATED_SALES_REPORT/
-│
-├── data/
-│   └── Sample_Superstore.csv         # Raw input sales data
-│
-├── outputs/
-│   └── weekly_sales_report_*.xlsx    # Auto-generated reports
-│
-├── utils/
-│   ├── __init__.py                   # Marks utils as a package
-│   ├── cleaner.py                    # Data cleaning logic
-│   ├── generate_report.py            # Creates Excel reports
-│   └── email_report.py               # Sends email with report
-│
-├── main.py                           # Main script to run the whole pipeline
-└── README.md                         # Project documentation
 
 🚀 Features
 📊 Reads raw sales data from .csv
