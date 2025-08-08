@@ -6,11 +6,11 @@ Python automation project to clean sales data, generate weekly Excel reports, an
 🧾 Automated Sales Report with Python
 This project automates the entire sales reporting process:
 
-🧹 Cleans raw sales data
+ Cleans raw sales data
 
-📈 Generates weekly Excel reports
+ Generates weekly Excel reports
 
-📧 Sends reports automatically via email using Gmail SMTP
+ Sends reports automatically via email using Gmail SMTP
 
 
 
@@ -18,13 +18,13 @@ This project automates the entire sales reporting process:
 🚀 Features
 
 
-📊 Reads raw sales data from .csv
+ Reads raw sales data from .csv
 
-🧼 Cleans and processes the data
+ Cleans and processes the data
 
-📈 Generates a weekly summary Excel report
+ Generates a weekly summary Excel report
 
-📧 Automatically emails the report to a recipient
+ Automatically emails the report to a recipient
 
 
 
