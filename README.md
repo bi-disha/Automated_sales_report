@@ -1,65 +1,39 @@
 # Automated_sales_report
 Python automation project to clean sales data, generate weekly Excel reports, and email them using Gmail
-# 🧾 Automated Sales Report with Python
 
+🧾 Automated Sales Report with Python
 This project automates the entire sales reporting process:
-- Cleans raw sales data
-- Generates weekly Excel reports
-- Sends reports automatically via email (Gmail SMTP)
 
----
+🧹 Cleans raw sales data
 
-## 📁 Project Structure
+📈 Generates weekly Excel reports
 
-AUTOMATED_SALES_REPORT/
-│
-├── data/
-│ └── Sample_Superstore.csv # Raw input sales data
-│
-├── outputs/
-│ └── weekly_sales_report_*.xlsx # Auto-generated reports
-│
-├── utils/
-│ ├── init.py # Marks utils as a package
-│ ├── cleaner.py # Data cleaning logic
-│ ├── generate_report.py # Creates Excel reports
-│ └── email_report.py # Sends email with report
-│
-├── main.py # Main script to run the whole pipeline
-└── README.md # Project documentation
+📧 Sends reports automatically via email using Gmail SMTP
 
+📁 Project Structure
+<pre> AUTOMATED_SALES_REPORT/ ├── data/ │ └── Sample_Superstore.csv # Raw input sales data │ ├── outputs/ │ └── weekly_sales_report_*.xlsx # Auto-generated reports │ ├── utils/ │ ├── __init__.py # Marks utils as a package │ ├── cleaner.py # Data cleaning logic │ ├── generate_report.py # Creates Excel reports │ └── email_report.py # Sends email with report │ ├── main.py # Main script to run the full pipeline └── README.md # Project documentation </pre>
+🚀 Features
+📊 Reads raw sales data from .csv
 
+🧼 Cleans and processes the data
 
----
+📈 Generates a weekly summary Excel report
 
-## 🚀 Features
+📧 Automatically emails the report to a recipient
 
-- 📊 Reads raw sales data from `.csv`
-- 🧹 Cleans and processes the data
-- 📈 Generates a summary Excel report
-- 📧 Automatically emails the report to a given address
+⚙️ How to Use
+Place your raw sales data in the data/ folder.
 
----
+Open main.py and configure your Gmail credentials securely.
 
-## ⚙️ How to Use
+Run the pipeline:
 
-1. Place your raw sales data in the `data/` folder.
-2. Open `main.py` and configure your email credentials.
-3. Run the script:
-   ```bash
-   python main.py
-
-
+python main.py
 🔧 Requirements
-Make sure to install the required Python libraries:
+Install the required libraries before running the script:
 
-bash
-Copy
-Edit
+
 pip install pandas openpyxl
-
-
-
 🛠 Tech Stack
 Python 3
 
@@ -71,23 +45,22 @@ smtplib
 
 VS Code
 
-
 🔐 Important Notes
-If you're using your Gmail to send the report:
+If you're using Gmail to send reports:
 
-Enable App Passwords
+Enable App Passwords in your Google account settings.
 
-Avoid hardcoding credentials directly into scripts
+Avoid hardcoding credentials into the script.
 
-Instead, use environment variables or a .env file
-
+Use environment variables or a .env file for storing sensitive information.
 
 🧪 Sample Output
-The report is generated weekly and saved under the outputs/ folder as an Excel file.
-Filename format: weekly_sales_report_YYYY-MM-DD.xlsx
+The report is generated weekly and saved in the outputs/ folder.
+Filename format:
 
-
+weekly_sales_report_YYYY-MM-DD.xlsx
 ✨ Author
 Bidisha Pal
 Final Year CSE Student | Data Engineering Enthusiast
+
 
